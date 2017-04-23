@@ -19,8 +19,7 @@ wget https://github.com/quartz-scheduler/quartz/blob/31291cef9038c856ea718ec27ea
 mysql -u root -p123456 -Dquartz_cluster_demo < tables_mysql_innodb.sql
 ```
 
-- 修改数据库连接配置文件
-数据库配置文件db.properties, 默认配置信息
+- 修改数据库连接配置文件db.properties, 默认配置信息
 ```
 jdbcUrl=jdbc:mysql://127.0.0.1:3306/quartz_cluster_demo
 username=root
