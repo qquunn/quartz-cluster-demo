@@ -2,12 +2,12 @@
 
 # 项目使用
 
-1. 创建数据库
+- 创建数据库
 ```
 CREATE DATABASE quartz_cluster_demo DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
-2. 初始化数据库
+- 初始化数据库
 
 下载sql脚本文件，或拷贝项目中的tables_mysql_innodb.sql文件
 ```
@@ -19,7 +19,7 @@ wget https://github.com/quartz-scheduler/quartz/blob/31291cef9038c856ea718ec27ea
 mysql -u root -p123456 -Dquartz_cluster_demo < tables_mysql_innodb.sql
 ```
 
-3. 修改数据库连接配置文件
+- 修改数据库连接配置文件
 数据库配置文件db.properties, 默认配置信息
 ```
 jdbcUrl=jdbc:mysql://127.0.0.1:3306/quartz_cluster_demo
@@ -27,6 +27,6 @@ username=root
 password=123456
 ```
 
-4. 启动应用
+- 启动应用
 主类 demo.quartz.cluster.App
 
