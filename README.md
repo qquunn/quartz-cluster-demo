@@ -1,6 +1,6 @@
 基于quartz-2.2.2, spring-boot-1.0.2,  spring-4.0.3, mysql5.6搭建的quartz-cluster项目例子
 
-# 项目使用
+#### 项目使用
 
 - 创建数据库
 ```
